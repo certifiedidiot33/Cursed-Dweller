@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+
+[[mods]]
+modId="cave_dweller"
+version="1.6.5"
+displayName="cave_dweller"
+authors="Cadentem"
+description='''Fork of the Cave Dweller mod'''
+
+[[dependencies.cave_dweller]]
+   modId="forge"
+   mandatory=true
+   versionRange="[43,)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.cave_dweller]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.19.2,1.20)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.cave_dweller]]
+   modId="geckolib3"
+   mandatory=true
+   versionRange="[3.1.40,)"
+   ordering="AFTER"
+   side="BOTH"
+

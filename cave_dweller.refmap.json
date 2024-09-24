@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "de/cadentem/cave_dweller/mixin/MixinGroundPathNavigation": {
+      "canUpdatePath": "Lnet/minecraft/world/entity/ai/navigation/GroundPathNavigation;m_7632_()Z"
+    },
+    "de/cadentem/cave_dweller/mixin/MixinLivingEntity": {
+      "travel": "Lnet/minecraft/world/entity/LivingEntity;m_7023_(Lnet/minecraft/world/phys/Vec3;)V"
+    },
+    "de/cadentem/cave_dweller/mixin/MixinPathNavigation": {
+      "createPath(Ljava/util/Set;IZIF)Lnet/minecraft/world/level/pathfinder/Path;": "Lnet/minecraft/world/entity/ai/navigation/PathNavigation;m_148222_(Ljava/util/Set;IZIF)Lnet/minecraft/world/level/pathfinder/Path;"
+    }
+  },
+  "data": {
+    "searge": {
+      "de/cadentem/cave_dweller/mixin/MixinGroundPathNavigation": {
+        "canUpdatePath": "Lnet/minecraft/world/entity/ai/navigation/GroundPathNavigation;m_7632_()Z"
+      },
+      "de/cadentem/cave_dweller/mixin/MixinLivingEntity": {
+        "travel": "Lnet/minecraft/world/entity/LivingEntity;m_7023_(Lnet/minecraft/world/phys/Vec3;)V"
+      },
+      "de/cadentem/cave_dweller/mixin/MixinPathNavigation": {
+        "createPath(Ljava/util/Set;IZIF)Lnet/minecraft/world/level/pathfinder/Path;": "Lnet/minecraft/world/entity/ai/navigation/PathNavigation;m_148222_(Ljava/util/Set;IZIF)Lnet/minecraft/world/level/pathfinder/Path;"
+      }
+    }
+  }
+}

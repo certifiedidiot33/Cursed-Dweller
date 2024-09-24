@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: cave_dweller
+Specification-Vendor: Cadentem
+Specification-Version: 1
+Implementation-Title: cave_dweller
+Implementation-Version: 1.6.5
+Implementation-Vendor: Cadentem
+Implementation-Timestamp: 2023-10-14T12:48:59+0200
+MixinConfigs: cave_dweller.mixins.json
+
